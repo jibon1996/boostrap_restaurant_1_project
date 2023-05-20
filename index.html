@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- boostrap css cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="img/logo1.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-band">Order Online</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero slider  -->
+    <div id="hero-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item  vh-100 active text-center slider-1">
+                <div class="contaiter d-flex justify-content-center align-items-center h-100">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELLCOME TO QRISPY</h6>
+                            <h1 class="display-1 fw-bold text-white">Char-grilled and Flavur-filled</h1>
+                            <a href="#" class="btn btn-band">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item vh-100 text-center slider-2">
+                <div class="contaiter d-flex justify-content-center align-items-center h-100">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">WELLCOME TO QRISPY</h6>
+                            <h1 class="display-1 fw-bold text-white">Fresh and Testy Food</h1>
+                            <a href="#" class="btn btn-band">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- about  -->
+    <section id="about ">
+        <div class="container py-5">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-5">
+                    <img class="myimg-abut " src="img/pexels-mediam-3.jpeg" alt="">
+                </div>
+                <div class="col-lg-5 ms-5">
+                    <h1>About Us</h1>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nam magni ipsum quo suscipit
+                        corporis doloribus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere, totam ad incidunt
+                        perspiciatis cumque commodi officiis sint ea placeat nihil voluptatibus.</p>
+                    <a href="#" class="btn btn-band">Explore Menu</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Menu  -->
+    <section id="menu" class="bg-light py-5 ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 intro-text">
+                    <h1>Explore Our Menu</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore enim ratione numquam
+                        reiciendis repellat, aperiam quaerat
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All item</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-breakfast" type="button" role="tab" aria-controls="pills-breakfast"
+                        aria-selected="false">Breakfast</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch"
+                        type="button" role="tab" aria-controls="pills-lunch" aria-selected="false">Lunch</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-diner-tab" data-bs-toggle="pill" data-bs-target="#pills-diner"
+                        type="button" role="tab" aria-controls="pills-diner" aria-selected="false">Diner</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-4.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 d-block d-lg-flex">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100 " src="img/pexels 2-photo-958545.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-mediam-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/stick-2.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade show " id="pills-breakfast" role="tabpanel"
+                    aria-labelledby="pills-breakfast-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 d-block d-lg-flex">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100 " src="img/pexels 2-photo-958545.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/stick-2.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab"
+                    tabindex="0">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-4.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/stick-2.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show " id="pills-diner" role="tabpanel" aria-labelledby="pills-diner-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-4.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/pexels-mediam-3.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-items bg-white shadow-on-hover">
+                                <img class="w-100" src="img/burger-1.jpeg" alt="">
+                                <div class="menu-itemContent p-4 ">
+                                    <div>
+
+                                        <span class="stars">
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star"></i>
+                                            <i class="fa-sharp fa-solid fa-star-half"></i>
+                                        </span>
+                                        <span>(4.4)</span>
+                                        <div>
+                                            <h5 class="mt-1 mb-2">
+                                                <a href="#">Fudgy Chewy Brownies</a>
+                                            </h5>
+                                            <p class="small">Beaked salman to a fish made salad with chickpise argula
+                                                herbo and some organic fresh food.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- features  -->
+    <section id="feature">
+        <div class="container vh-100 ">
+            <div class="row mt-3 ">
+                <div class="col-12 intro-text ">
+                    <h1 class="text-white ">Why you choose us?</h1>
+                    <p class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore
+                        enim ratione numquam
+                        reiciendis repellat, aperiam quaerat
+                    </p>
+                </div>
+            </div>
+
+            <div class="row gy-3">
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-all-hover">
+                    <div class="feature-all py-5 px-4 text-center">
+                       
+                        <div class="item-icon">
+                            <i class="fa-solid fa-wifi "></i>
+                        </div>
+                        <div class="item-title">
+                            <h5 class="text-white">Free Wifi</h5>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+                                labore!
+                            </p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-all-hover">
+                    <div class="feature-all py-5 px-4 text-center">
+                       
+                        <div class="item-icon">
+                            <i class="fa-brands fa-docker"></i>
+                        </div>
+                        <div class="item-title">
+                            <h5 class="text-white">Fast Delivery</h5>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+                                labore!
+                            </p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-all-hover">
+                    <div class="feature-all py-5 px-4 text-center">
+                       
+                        <div class="item-icon">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div class="item-title">
+                            <h5 class="text-white">Friendly Staff</h5>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+                                labore!
+                            </p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-all-hover">
+                    <div class="feature-all py-5 px-4 text-center">
+                       
+                        <div class="item-icon">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <div class="item-title">
+                            <h5 class="text-white">Free Wifi</h5>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+                                labore!
+                            </p>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+           
+        </div>
+
+    </section>
+ <!-- team   -->
+ <section id="team">
+  <div class="container">
+    <div class="row mt-3 ">
+        <div class="col-12 intro-text">
+            <h1>Our team membur</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore enim ratione numquam
+                reiciendis repellat, aperiam quaerat
+            </p>
+        </div>
+    </div>
+    <div class="row gy-3">
+
+        <div class="col-lg-3 col-sm-6">
+            <div class="team-membur border shadow-on-hover text-center py-5 px-3 ">
+              <img class="w-100 " src="img/cook-10.webp" alt="">
+              <div class="team-content">
+                <h4 class="text-center small pt-3 mb-0">Jone Doe</h4>
+                <p class="text-center small mb-0">our main chef</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+            <div class="team-membur border shadow-on-hover text-center py-5 px-3 ">
+              <img class="w-100 " src="img/cook-10.webp" alt="">
+              <div class="team-content">
+                <h4 class="text-center small pt-3 mb-0">Jone Doe</h4>
+                <p class="text-center small mb-0">our main chef</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+            <div class="team-membur border shadow-on-hover text-center py-5 px-3 ">
+              <img class="w-100 " src="img/cook-10.webp" alt="">
+              <div class="team-content">
+                <h4 class="text-center small pt-3 mb-0">Jone Doe</h4>
+                <p class="text-center small mb-0">our main chef</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+            <div class="team-membur border shadow-on-hover text-center py-5 px-3 ">
+              <img class="w-100 " src="img/cook-10.webp" alt="">
+              <div class="team-content">
+                <h4 class="text-center small pt-3 mb-0">Jone Doe</h4>
+                <p class="text-center small mb-0">our main chef</p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+  </div>
+ </section>
+ <!-- riviews -->
+<section id="riviews" class="bg-cover ">
+   <div class="container mt-5">
+    <div class="row ">
+        <div class="col-12 intro-text ">
+            <h1 class="text-white mt-5 ">Our Client Saying</h1>
+            <p class="text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore
+                enim ratione numquam
+                reiciendis repellat, aperiam quaerat
+            </p>
+        </div>
+    </div>
+
+    <div id="rivieswSlider" class="carousel slide">
+        <div class="carousel-indicators riview-carousel">
+
+          <button type="button" data-bs-target="#rivieswSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#rivieswSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+
+        </div>
+        <div class="carousel-inner ">
+
+          <div class="carousel-item active vh-100 ">
+            
+               
+                <div class="row justify-content-center ">
+                    <div class="col-lg-8 ">
+                        <div class="riview bg-white   text-center ">
+                            <div class="quate-icon">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <p class="mb-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, veritatis magnam fugiat ex non iure omnis officiis porro doloremque eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet distinctio mollitia provident ipsam quo itaque inventore vel sapiente, corrupti debitis ex illo, doloremque exercitationem ad.</p>
+                            <div class="person mt-4">
+                                <img class=" " src="img/person -1.jpeg" alt="">
+                                <h4 class="mt-2 mb-0">Justin Saifer</h4>
+                                <div class="stars">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+          </div>
+
+          <div class="carousel-item vh-100 ">
+           
+                <div class="row d-flex justify-content-center align-items-center ">
+                    <div class="col-lg-8 ">
+                        <div class="riview bg-white   text-center ">
+                            <div class="quate-icon">
+                                <i class="fa-solid fa-quote-left q-icon"></i>
+                            </div>
+                            <p class="mb-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, veritatis magnam fugiat ex non iure omnis officiis porro doloremque eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet distinctio mollitia provident ipsam quo itaque inventore vel sapiente, corrupti debitis ex illo, doloremque exercitationem ad.</p>
+                            <div class="person mt-4">
+                                <img class="" src="img/person-2.jpeg" alt="">
+                                <h4 class="mt-2 mb-0 ">Justin Saifer</h4>
+                                <div class="stars">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             
+                
+            </div>
+          </div>
+
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#rivieswSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#rivieswSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+   </div>
+</section>
+<!-- Reservation  -->
+<section id="reservation">
+   <div class="container">
+    <div class="row mt-3 ">
+        <div class="col-12 intro-text">
+            <h1>Book Your Table</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore enim ratione numquam
+                reiciendis repellat, aperiam quaerat
+            </p>
+        </div>
+    </div>
+    <form action="#" class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="row g-3">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Full Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Date">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" placeholder="Number Of Person">
+                </div>
+                <div class="form-group col-md-12">
+                    <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Type Massage"></textarea>
+                </div>
+                <div class="form-group col-md-12 text-center">
+                    <a href="#" type="button" class="btn btn-band">Send Massage</a>
+                </div>
+            </div>
+        </div>
+    </form>
+   </div>
+</section>
+<!-- instra-post  -->
+<div class="row g-0 mt-5 ">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="instra-post">
+            <img class="w-100" src= "img/pexels-3.jpeg" alt="">
+            <a href="#" class="instra-btn">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
+        <div class="instra-post">
+            <img class="w-100"  src="img/cook-1.webp" alt="">
+            <a href="#" class="instra-btn">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="instra-post">
+            <img class="w-100" src="img/pexels-4.jpeg" alt="">
+            <a href="#" class="instra-btn">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="instra-post">
+            <img class="w-100" src="img/cook-4.jpeg" alt="">
+            <a href="#" class="instra-btn">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
+<!-- blog post  -->
+<section id="blog">
+    <div class="container">
+        <div class="row mt-3 ">
+            <div class="col-12 intro-text">
+                <h1>Blog Posts</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore enim ratione numquam
+                    reiciendis repellat, aperiam quaerat
+                </p>
+            </div>
+        </div>
+        <div class="row gy-4">
+            <div class="col-md-6">
+                <div class="blog-post d-flex">
+                    <img src="img/stick-2.jpeg" alt="">
+                    <div class="blog-content p-4 shadow-on-hover">
+                        <p>osted:25 Dec 2018</p>
+                        <h4><a href="#">
+                            How to make delicius foods.
+                        </a></h4>
+                        <p>We made foods for you.whatever you want is here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="blog-post d-flex">
+                    <img src="img/pexels 2-photo-958545.jpeg" alt="">
+                    <div class="blog-content p-4 shadow-on-hover">
+                        <p>osted:25 Dec 2018</p>
+                        <h4><a href="#">
+                            How to make delicius foods.
+                        </a></h4>
+                        <p>We made foods for you.whatever you want is here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="blog-post d-flex">
+                    <img src="img/pexels-photo 1-376464.jpeg" alt="">
+                    <div class="blog-content p-4 shadow-on-hover">
+                        <p>osted:25 Dec 2018</p>
+                        <h4><a href="#">
+                            How to make delicius foods.
+                        </a></h4>
+                        <p>We made foods for you.whatever you want is here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="blog-post d-flex">
+                    <img src="img/pexels-4.jpeg" alt="">
+                    <div class="blog-content p-4 shadow-on-hover">
+                        <p>osted:25 Dec 2018</p>
+                        <h4><a href="#">
+                            How to make delicius foods.
+                        </a></h4>
+                        <p>We made foods for you.whatever you want is here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-cover">
+    <div class="footer-top mt-5 mb-4">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 mt-5">
+                    <!-- <img src="img/pexels-photo-1595385.webp" alt=""> -->
+                    <h2 class="text-white mt-5">Qrispy.</h2>
+                    <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam velit sit.</p>
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5 ms-auto">
+                    <h4 class="text-white mt-5 ">Contact</h4>
+                    <p class=" mb-0">Phone:01235487455</p>
+                    <p class=" mb-0">Emial:jibonkhan53296@gmail.com</p>
+                    <p class="mb-0 ">Shamvupur-2325,Bhairab,Kishorgang.</p>
+                </div>
+
+                <div class="col-lg-3 mt-5">
+                    <h4 class="text-white mt-5">Opening Hours</h4>
+                    <p class=" mb-0">Mondy-Friday : 08:00 - 22:00</p>
+                    <p class=" mb-0">Saturday-Sunday : 09:00 - 21:00</p>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p class=" ">Copyrights all right reserved</p>
+
+                </div>
+                <div class="col-auto">
+                    <p class="  ">Designed by Jibon </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- boostrap js cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
